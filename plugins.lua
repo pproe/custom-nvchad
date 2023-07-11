@@ -11,7 +11,7 @@ local plugins = {
 
     config = function()
       require "plugins.configs.lspconfig"
-      --        require "custom.configs.lspconfig"
+      require "custom.configs.lspconfig"
     end,
   },
 }
